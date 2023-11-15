@@ -30,7 +30,8 @@ header li {
 }
 
 .container {
-    width: 1366;
+    max-width: 1024;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -70,6 +71,7 @@ section h2,
     text-decoration: none;
     font-weight: bold;
     margin-top: 8px;
+    padding: 8px;
 }
 
 .articles article a:hover {
